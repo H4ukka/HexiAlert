@@ -10,6 +10,7 @@
  * TO.DO: 
  * - Server specific alerts
  * - Server specific timed alerts (like AutoAnnouncer)
+ * - color support
  * 
  * Alert command file
  */
