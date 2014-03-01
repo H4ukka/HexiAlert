@@ -1,0 +1,5 @@
+name: HexiAlert
+version: 0.1r1
+author: H4
+
+main: haukka.HexiAlert
