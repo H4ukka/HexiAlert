@@ -10,7 +10,7 @@
  * TO.DO: 
  * - Server specific alerts
  * - Server specific timed alerts (like AutoAnnouncer)
- *  - color support
+ * - color support
  * 
  * Main plug-in file
  */
