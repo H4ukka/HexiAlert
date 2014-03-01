@@ -1,6 +1,6 @@
 /*
- * HexiAlert
- * v0.1r1
+ * HexiAlert2
+ * v0.1r2
  * 03.02.0214
  * by H4
  * 
