@@ -2,6 +2,7 @@
  * HexiAlert2
  * v0.1r2
  * 03.02.0214
+ * Last Update: 02.03.2014
  * by H4
  * 
  * Send a broadcast type alert to all servers connected to the current proxy session.
