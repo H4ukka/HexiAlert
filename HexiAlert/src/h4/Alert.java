@@ -26,6 +26,7 @@ import net.md_5.bungee.api.chat.ComponentBuilder;
 
 public class Alert extends Command {
 	private Plugin plugin;
+	private String servertag = "&5[&6Hexicraft&5]&f ";
 	
     public Alert(Plugin plugin) {
         super("alert","hexialert");
@@ -35,12 +36,12 @@ public class Alert extends Command {
     @Override
     public void execute (CommandSender sender, String[] args) {
     	StringBuilder message = new StringBuilder();
-    	for (int i = 0; i < args.length; i++){
-    		message.append(args[i]);
+    	for (int i = 0; i < args.length; ++i){
+    		message.append(args[i] + " ");
     	}
     	String alertMessage = message.toString().trim();
     	if ((sender instanceof ProxiedPlayer)) {
-    		plugin.getProxy().broadcast(new ComponentBuilder("[").color(ChatColor.DARK_PURPLE).append("Hexicraft").color(ChatColor.GOLD).append("]").color(ChatColor.DARK_PURPLE).append(alertMessage).color(ChatColor.WHITE).create());
+    		plugin.getProxy().broadcast(new ComponentBuilder("").append(ChatColor.translateAlternateColorCodes('&', servertag + alertMessage)).create());
     	}
     }
 }

@@ -2,4 +2,4 @@ name: HexiAlert2
 version: 0.1r2
 author: H4
 
-main: haukka.HexiAlert
+main: h4.HexiAlert
